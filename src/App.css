@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a.contact-tel {
+  color: black;
+}
+
+header {
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+img.site-logo {
+  height: 60%;
+}
+
+img.image {
+  width: 100%;
+}
+
+nav.site-nav {
+  width: 100%;
+  padding: 0.3vh 18.5vw;
+  height: 8.3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+}
+
+.block-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  justify-content: space-between;
+}
+
+.container-nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 1vh 0;
+  gap: 4vw;
+}
+
+.block-nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.block-nav .link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.block-nav .link .link-icon {
+  width: 1.2vw;
+}
+.block-nav .link .link-text {
+  height: 50%;
+  color: gray;
+  width: 100%;
+}
+
+.block-lang {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block-lang img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+.block-lang .btn-lang {
+  color: gray;
+  width: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3vw;
+}
+.block-lang .btn-lang .lang-select-arrow {
+  transform: translate(0, -50%);
+  width: 30%;
+  height: 0.5vh;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=App.css.map */
