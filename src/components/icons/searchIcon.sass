@@ -1,0 +1,48 @@
+@use 'sass:math'
+
+div.search-icon
+  position: relative
+  width: calc(var(--search-icon-size) + 1%)
+  height: var(--search-icon-size)
+  background-color: transparent !important
+
+  div.search-glass
+    position: absolute
+    top: 0
+    left: 0
+    width: var(--search-icon-size)
+    height: var(--search-icon-size)
+    border: 2px solid
+    border-radius: 50%
+    transition: 1s ease-in-out all
+    background-color: transparent !important
+
+  &:hover
+    div.search-glass
+      animation: search-glass-rotate-animation 1.5s infinite
+    div.search-handle
+      animation: search-handle-rotate-animation 1.5s infinite
+
+  div.search-handle
+    width: .35vw
+    position: absolute
+    bottom: 0
+    right: 0
+    background-color: transparent !important
+    border: 1px solid
+    transform: rotate(45deg)
+
+@keyframes search-handle-rotate-animation
+  25%, 75%
+    transform: rotate(45deg) rotateX(90deg)
+  50%
+    transform: rotate(45deg) rotateX(180deg)
+
+
+@keyframes search-glass-rotate-animation
+  0%, 100%
+    transform: rotateX(0)
+  25%, 75%
+    transform: rotateY(90deg) rotateX(45deg)
+  50%
+    transform: rotateY(180deg)

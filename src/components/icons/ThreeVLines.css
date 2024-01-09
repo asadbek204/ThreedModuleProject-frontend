@@ -1,0 +1,16 @@
+.v-lines {
+  width: 1vw;
+  height: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14%;
+}
+.v-lines i {
+  height: 4%;
+  width: 65%;
+  background-color: white;
+}
+
+/*# sourceMappingURL=ThreeVLines.css.map */

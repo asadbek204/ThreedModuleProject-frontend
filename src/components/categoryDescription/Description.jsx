@@ -1,9 +1,9 @@
 import React from 'react';
 
-function ProductsRouter(props) {
+function Description(props) {
     return (
         <div></div>
     );
 }
 
-export default ProductsRouter;
+export default Description;

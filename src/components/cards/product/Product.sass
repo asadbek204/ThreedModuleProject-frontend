@@ -1,0 +1,77 @@
+
+.like.true
+  color: red
+
+.like.false
+  color: rgb(119, 116, 116)
+
+.product
+  width: 100%
+  height: 100vh
+  &hover
+    .on-hover-box
+      opacity: 1
+
+  .image-container
+    position: relative
+    width: 100%
+    height: 80vh
+    background-size: cover
+    display: flex
+    flex-direction: column
+    justify-content: end
+    align-items: start
+
+
+    .on-hover-box
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: start
+      padding: 1.5vh 1.5vw
+      width: 100%
+      transition: .5s ease-in-out
+      background-color: rgba(255, 255, 255, 0.6)
+      opacity: 0
+
+      .add-to-cart
+        padding: 1vh 1vw
+        background-color: white
+
+      .sizes
+        padding: .7vw
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+        width: 100%
+
+    .like
+      font-size: 30px
+      position: absolute
+      top: 0
+      right: 0
+      transform: translate(-50%, 50%)
+
+
+  .info-block
+    height: 20vh
+    padding: 1vh 1vw
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    background-color: rgba(205, 205, 205, 0.8)
+
+    .product-name
+      color: #242424
+      font-size: 18px
+      font-family: 'Montserrat', sans-serif
+
+  .product-colors
+    display: flex
+  .color-input-block
+    .p-color
+      width: .5vw
+      height: .5vw
+    .color-radio
+      display: none

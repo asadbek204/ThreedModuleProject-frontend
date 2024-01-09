@@ -1,0 +1,17 @@
+.circle-catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+.circle-catalog .image-block {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+}
+.circle-catalog .title {
+  color: black;
+}
+
+/*# sourceMappingURL=CircleCatalog.css.map */

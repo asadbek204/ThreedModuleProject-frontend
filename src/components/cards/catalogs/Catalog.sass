@@ -1,0 +1,68 @@
+.sub-catalog-viewport
+  position: relative
+
+  .opacity-animation
+    transition: .7s ease-in-out all
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: black
+    opacity: 0
+    display: flex
+    flex-direction: column
+    justify-content: end
+    align-items: start
+    padding: 2vw
+
+    &:hover
+      opacity: .3
+    &:hover+.button-block
+      opacity: 1
+  .button-block:hover
+    height: 18vh
+    opacity: 1
+    .btn-detail
+      opacity: 1
+      font-size: 25px
+
+      &:hover
+        text-decoration: underline
+
+
+  .button-block
+    height: 15vh
+    transition: .5s ease-in-out all
+    bottom: 0
+    left: 0
+    right: 0
+    opacity: 0
+    position: absolute
+    background-color: transparent
+    color: white
+    display: flex
+    flex-direction: column
+    justify-content: start
+    align-items: start
+    padding: 2vw
+
+    .catalog-view-title
+      transition: .7s ease-in-out all
+      font-family: "Montserrat", sans-serif
+      color: white
+      font-size: 40px
+
+    .btn-detail
+      transition: .5s ease-in-out all
+      background-color: transparent
+      font-size: 20px
+      color: white
+      opacity: 0
+
+
+  .catalog-view
+    height: 41vw
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
