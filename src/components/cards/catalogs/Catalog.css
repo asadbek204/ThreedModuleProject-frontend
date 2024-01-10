@@ -12,8 +12,8 @@
   opacity: 0;
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: start;
+  justify-content: flex-end;
+  align-items: flex-start;
   padding: 2vw;
 }
 .sub-catalog-viewport .opacity-animation:hover {
@@ -45,8 +45,8 @@
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 2vw;
 }
 .sub-catalog-viewport .button-block .catalog-view-title {
